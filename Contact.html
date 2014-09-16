@@ -17,15 +17,73 @@
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
          <style>
-    ul{
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
+    nav ul{
+    list-style-type: none;
+    margin:0px;
+    padding: 0px;
+
     }
 
-    li {
-        display: inline;
+nav li {
+    float: left;
     }
+nav a:link, a:visited{
+    display: inline-block;
+    width:200px;
+    font-weight: bold;
+    color: red;
+    background-color: black;
+    text-align: center;
+    padding: 6px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover, a:active{
+    background-color: black;
+}
+
+
+    
+
+
+a:link {
+    text-decoration: none;
+    color:red;
+    
+    }
+a:visited{
+    text-decoration: none;
+    
+    
+
+    }
+a:hover{
+    text-decoration: none;
+    color: blue;
+    
+    
+
+}
+a:active{
+    text-decoration: none;
+    color:purple;
+    
+
+}
+
+.Welcome { 
+    font-family: Arial;
+    font-size: 4.0em;
+        }
+
+.Day{font-family: Arial;
+        font-size: 5.26em;}
+
+.footer{font-size: .5em;
+padding-top: 380px;}
+
+
     </style>
     </head>
     <body>
@@ -35,16 +93,34 @@
 
         <!-- Add your site or application content here -->
 
+              <nav>
         <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact</li>
-            <li>Blog</li>
+            <a href="file:///Users/Cooper/Documents/MkrSq/blog/index.html"<li>HOME</li></a>
+            <a href="file:///Users/Cooper/Documents/MkrSq/blog/About.html"<li>ABOUT</li></a>
+            <a href="file:///Users/Cooper/Documents/MkrSq/blog/Contact.html"<li>CONTACT</li></a>
+            <a href="file:///Users/Cooper/Documents/MkrSq/blog/Blog.html"<li>BLOG</li></a>
+        </ul>
+    </nav>
+
+
+    
+
+
+    
+
+        <h1 div class="Welcome">Contact Info</h1>
+        <h2>E-Mail:</h2>
+        <ul>
+            <li>cooperhiggins@gmail.com</li>
+        </ul>
+        
+        <h2>Phone:</h2>
+        <ul>
+            <li>512-948-9299</li>
         </ul>
 
-        
-        <h1>Welcome to my Blog!</h1>
-        <p>Hello This is a sample from a blog.</p>
+
+
 
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -61,5 +137,12 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X');ga('send','pageview');
         </script>
+
+        <footer div class="footer">
+            <p>Created By:Cooper Higgins</p>
+            <p>Copyright 2014 Cooper Higgins Designs</p>
+
+
+        </footer>
     </body>
 </html>
